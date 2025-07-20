@@ -2,7 +2,7 @@ import styles from './App.module.css';
 import { useState } from 'react';
 
 export default function App() {
-  const lock = new Audio('/sound.mp3');
+  const lock = new Audio('https://soundbible.com/mp3/Door_Lock.mp3');
   const [name,setname]=useState('');
   const [len,setlen]=useState(14);
   const generator =('R>7MWrP/QDUec|f#s0jBymIv(;E:ZYoV{A.qX~wCdN&"-aH=@1OTKl[]$2g_>u`J9kbn5F+x3Lh8iS%!zt64^G}*?C');
